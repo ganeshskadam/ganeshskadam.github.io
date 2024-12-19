@@ -3,40 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GTA V Mods Download</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <meta name="description" content="Download GTA V Mods and Scripts">
+    <meta name="keywords" content="GTA V, ScriptHookV, mods, downloads">
+    <title>GTA V Mods</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>GTA V Mods Download</h1>
+        <nav>
+            <div class="logo">GTA V Mods</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#mods">Mods</a></li>
+                <li><a href="#downloads">Downloads</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <main>
-        <div class="mod-container">
-            <div class="mod">
-                <h2>ScriptHookV</h2>
-                <p>Essential tool to run GTA V mods.</p>
-                <a href="https://drive.google.com/file/d/your-script-hook-v-link" class="btn">Download</a>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to GTA V Mods</h1>
+            <p>Download the latest mods, scripts, and tools for your GTA V experience.</p>
+        </div>
+    </section>
+
+    <section id="mods" class="mods-section">
+        <h2>Popular Mods</h2>
+        <div class="mod-cards">
+            <div class="card">
+                <img src="images/mod1.jpg" alt="Mod 1">
+                <h3>ScriptHookV</h3>
+                <p>Enhance your GTA V experience with ScriptHookV.</p>
+                <a href="https://drive.google.com/file/d/1lXyL2f-MJmPjGH7wGTmFeMhXlR1YdJ6G/view?usp=sharing" class="download-btn" target="_blank">Download</a>
             </div>
-            <div class="mod">
-                <h2>Trainer V</h2>
-                <p>Customize your gameplay with this trainer.</p>
-                <a href="https://drive.google.com/file/d/your-trainer-v-link" class="btn">Download</a>
-            </div>
-            <div class="mod">
-                <h2>Open Interiors</h2>
-                <p>Explore interiors in GTA V like never before.</p>
-                <a href="https://drive.google.com/file/d/your-open-interiors-link" class="btn">Download</a>
-            </div>
-            <div class="mod">
-                <h2>Mission Maker</h2>
-                <p>Create custom missions with this powerful tool.</p>
-                <a href="https://drive.google.com/file/d/your-mission-maker-link" class="btn">Download</a>
+            <div class="card">
+                <img src="images/mod2.jpg" alt="Mod 2">
+                <h3>Ultimate Trainer</h3>
+                <p>Add new features and controls to your game.</p>
+                <a href="https://drive.google.com/file/d/1EXAMPLEFILEID/view?usp=sharing" class="download-btn" target="_blank">Download</a>
             </div>
         </div>
-    </main>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form action="contact.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+        <!-- Contact Form Success/Error Messages -->
+        <div id="form-message"></div>
+    </section>
+
     <footer>
-        <p>© 2024 GTA V Mods. All rights reserved.</p>
+        <p>&copy; 2024 GTA V Mods. All Rights Reserved.</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
