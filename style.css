@@ -1,65 +1,56 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
-}
+/* Add this to your existing CSS file */
 
-header {
-    background-color: #1a1a1a;
-    color: white;
+/* Contact Section Styling */
+.contact-section {
+    padding: 50px 20px;
+    background-color: #333;
     text-align: center;
-    padding: 20px;
 }
 
-main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 20px;
+.contact-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
 }
 
-.mod-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
+.contact-section form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
 }
 
-.mod {
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    text-align: center;
-    width: 300px;
+.contact-section label {
+    display: block;
+    font-size: 1rem;
+    margin: 10px 0 5px;
 }
 
-.mod h2 {
-    color: #333;
-}
-
-.mod p {
-    color: #666;
-}
-
-.btn {
-    display: inline-block;
-    background: #1a73e8;
-    color: white;
-    padding: 10px 15px;
-    border-radius: 5px;
-    text-decoration: none;
-    margin-top: 10px;
-}
-
-.btn:hover {
-    background: #155abc;
-}
-
-footer {
-    background-color: #1a1a1a;
-    color: white;
-    text-align: center;
+.contact-section input,
+.contact-section textarea {
+    width: 100%;
     padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #444;
+    color: #fff;
+}
+
+.contact-section .submit-btn {
+    background-color: #f39c12;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-section .submit-btn:hover {
+    background-color: #e67e22;
+}
+
+#form-message {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #fff;
 }
