@@ -39,6 +39,7 @@ nav {
     font-size: 16px;
 }
 
+/* Hero Section Styling */
 .hero {
     background-image: url('images/hero-bg.jpg');
     background-size: cover;
@@ -56,6 +57,7 @@ nav {
     font-size: 1.5rem;
 }
 
+/* Mods Section Styling */
 .mods-section {
     padding: 50px 0;
     text-align: center;
@@ -111,15 +113,6 @@ nav {
     background-color: #e67e22;
 }
 
-/* Footer Styling */
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #111;
-}
-
-/* Add this to your existing CSS file */
-
 /* Contact Section Styling */
 .contact-section {
     padding: 50px 20px;
@@ -173,4 +166,11 @@ footer {
     margin-top: 20px;
     font-size: 1rem;
     color: #fff;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
 }
